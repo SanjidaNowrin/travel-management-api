@@ -7,11 +7,9 @@ router
   .get(travelController.getTravels)
   .post(travelController.createTravel);
 
-// dynamic id last a hobe
-// router
-//   .route("/:id")
-//   .patch(travelController.updateProductById)
-//   .delete(travelController.deleteProductById);
-//   .get()
-//   .post()
+router
+  .route("/:id")
+  .get(travelController.getTourById)
+  .patch(travelController.updateTourById);
+
 module.exports = router;

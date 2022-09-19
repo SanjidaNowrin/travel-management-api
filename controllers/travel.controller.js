@@ -1,6 +1,8 @@
 const {
   getTravelsService,
   createTravelService,
+  getTourByIdService,
+  updateTourByIdService,
 } = require("../services/travel.services");
 
 exports.getTravels = async (req, res, next) => {
@@ -58,6 +60,44 @@ exports.createTravel = async (req, res, next) => {
     res.status(400).json({
       status: "fail",
       message: "Tours is not inserted",
+      error: error.message,
+    });
+  }
+};
+
+// get tour by id
+exports.getTourById = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const result = await getTourByIdService(id);
+    res.status(200).json({
+      status: "success",
+      message: "Successfully get the tour",
+      data: result,
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: "fail",
+      message: "Could not get the tour",
+      error: error.message,
+    });
+  }
+};
+
+// update tour by id
+exports.updateTourById = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const result = await updateTourByIdService(id, req.body);
+    res.status(200).json({
+      data: result,
+      status: "success",
+      message: "Successfully update the tour",
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: "fail",
+      message: "Could not update the tour",
       error: error.message,
     });
   }

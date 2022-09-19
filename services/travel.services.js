@@ -1,3 +1,4 @@
+const { findOne } = require("../models/Travels");
 const Travel = require("../models/Travels");
 
 exports.getTravelsService = async (filters, queries) => {
@@ -15,4 +16,20 @@ exports.getTravelsService = async (filters, queries) => {
 exports.createTravelService = async (data) => {
   const tours = await Travel.create(data);
   return tours;
+};
+
+// get tour by id
+exports.getTourByIdService = async (tourId) => {
+  const result = await Travel.findOne({ _id: tourId });
+  return result;
+};
+
+//update tour by id
+exports.updateTourByIdService = async (tourId, data) => {
+  const result = await Travel.updateOne(
+    { _id: tourId },
+    { $set: data },
+    { runValidators: true } //validate body
+  );
+  return result;
 };

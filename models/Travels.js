@@ -23,6 +23,10 @@ const travelSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    viewCount: {
+      type: Number,
+      default: 0,
+    },
     category: {
       type: String,
       required: true,
