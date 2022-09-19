@@ -21,11 +21,11 @@ app.use("/tour", tourRoute);
 
 // server
 const port = process.env.PORT || 5000;
+
 app.get("/", (req, res) => {
   res.send("Travel route is working!");
 });
+
 app.listen(port, () => {
   console.log(`App is running on port ${port}`.yellow.bold);
 });
-
-module.exports = app;
