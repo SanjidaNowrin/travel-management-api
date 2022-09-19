@@ -60,13 +60,13 @@ const travelSchema = mongoose.Schema(
 // mongoose middlewares for saving data:pre/post
 
 // before saving data
-travelSchema.pre("save", function (next) {
-  console.log("Before saving data");
-  if (this.quantity == 0) {
-    this.status = "reject";
-  }
-  next();
-});
+// travelSchema.pre("save", function (next) {
+//   console.log("Before saving data");
+//   if (this.quantity == 0) {
+//     this.status = "reject";
+//   }
+//   next();
+// });
 
 // after saving data
 

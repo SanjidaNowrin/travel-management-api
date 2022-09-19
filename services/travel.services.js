@@ -10,3 +10,9 @@ exports.getTravelsService = async (filters, queries) => {
   const page = Math.ceil(totalTravels / queries.limit);
   return { travels, totalTravels, page };
 };
+
+// post tour
+exports.createTravelService = async (data) => {
+  const tours = await Travel.create(data);
+  return tours;
+};

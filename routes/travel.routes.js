@@ -2,8 +2,10 @@ const express = require("express");
 const router = express.Router();
 const travelController = require("../controllers/travel.controller");
 
-router.route("/").get(travelController.getTravels);
-//   .post(travelController.createProduct);
+router
+  .route("/")
+  .get(travelController.getTravels)
+  .post(travelController.createTravel);
 
 // dynamic id last a hobe
 // router
