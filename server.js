@@ -3,7 +3,7 @@ const dotenv = require("dotenv").config();
 const colors = require("colors");
 // const DBConnect = require("./utils/dbConnect");
 
-const app = require("./app");
+const app = require("./index");
 
 // database connection
 // DBConnect();
