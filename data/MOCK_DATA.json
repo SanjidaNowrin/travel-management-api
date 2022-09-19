@@ -1,14 +1,5 @@
 [
   {
-    "name": "A weekend in London",
-    "description": "We Offer A No-Quibble 14 Day Money Back Guarantee On All Unredeemed Vouchers. Find A New Destination To Visit, We Have Amazing Deals Across The Whole Of The UK.",
-    "price": "300",
-    "location": "London",
-    "category": "Adventure",
-    "image": "https://i.ibb.co/LkkhTRt/destination-london-07-800x533.jpg",
-    "status": "approved"
-  },
-  {
     "name": "Thrilling New York",
     "description": "It's thrilling, exhilarating and fun, fun, fun. So whether you're looking to dive right down into the hustle and bustle of the beating heart of the city.",
     "price": "200",
@@ -38,7 +29,7 @@
   {
     "name": "Faraway Sydney",
     "description": "Massive Darling Harbour and the smaller Circular Quay port are hubs of waterside life, with the arched Harbour Bridge and esteemed Royal Botanic Garden nearby.",
-    "price": "300",
+    "price": "333",
     "location": "Sydney",
     "category": "Other",
     "image": "https://i.ibb.co/TgjpM0t/destination-sydney-08-800x533.jpg",
@@ -56,7 +47,7 @@
   {
     "name": "Exciting Belgrade",
     "description": "Belgrade has epic night life, thriving cafe culture, hearty meals and emerging, and a gritty, distinctive appeal!Join us on this amazing trip to Belgrade!.",
-    "price": "324",
+    "price": "444",
     "location": "Belgrade",
     "category": "Photography",
     "image": "https://i.ibb.co/SywhxMh/destination-belgrade-06-800x533.jpg",
@@ -65,7 +56,7 @@
   {
     "name": "A week in Venice",
     "description": "Venice is a city not so extended, but it is full of museums, works of art and a lot of things to see.This is the best offer for you.Venice has been known as La Dominante.",
-    "price": "512",
+    "price": "712",
     "location": "Venice",
     "category": "Family Travel",
     "image": "https://i.ibb.co/px1Xk1W/venice-01-800x533.jpg",
@@ -74,7 +65,7 @@
   {
     "name": "Sunny Barcelona",
     "description": "Sunny Barcelona. Barcelona is one of the first tourist destination of Spain, with a history among the oldest in Europe.The deep blue Mediterranean beckons.",
-    "price": "370",
+    "price": "670",
     "location": "Barcelona",
     "category": "Photography",
     "image": "https://i.ibb.co/bzKbbVY/destination-barcelona-02-800x533.jpg",
@@ -92,7 +83,7 @@
   {
     "name": "Chittagong Beaches",
     "description": "Patenga Sea beach is one of the most visited tourist destination in Chittagong. Is located south of Chittagong City.This is the place to travel for all ages.It's a nice place for couples.you can take food from here there are many food shop.",
-    "price": "200",
+    "price": "222",
     "location": "Chittagong,Bangladesh",
     "category": "Photography",
     "image": "https://i.ibb.co/ykxGqJP/360-F-213576368-k-Lr4o-B8dvm7-AY2-Yj0-NOXJw-H0-CY8h-HPEr.jpg",
@@ -110,7 +101,7 @@
   {
     "name": "Berlin's Brandenburg Gate",
     "description": "History, culture, and natural beauty perhaps best descriptionribe the essence of vacationing in Germany. With its many historic cities and small towns, along with an abundance of forests and mountains, visitors are spoiled for choice when it comes to choosing a unique place",
-    "price": "600",
+    "price": "634",
     "location": "Germany",
     "category": "Other",
     "image": "https://i.ibb.co/m6Rc1YD/germany-tourist-attractions-1513251736-785-X440.jpg",
@@ -119,7 +110,7 @@
   {
     "name": "Famous Landmarks",
     "description": "The charms of this huge sprawling metropolis are well hidden, but Jakarta dwellers are proud of the cultural and intellectual life in their ever-changing, chaotic capital city.This huge temple was built sometime during the relatively short Sailendra dynasty.",
-    "price": "550",
+    "price": "900",
     "location": "Indonesia",
     "category": "Adventure",
     "image": "https://i.ibb.co/tzqkhyr/shutterstock-463299110-destination-Main-1531818723725.jpg",
@@ -128,10 +119,20 @@
   {
     "name": "Egypt Historical Place",
     "description": "There is hardly any other country, apart from Egypt, that has fascinated tourists and researchers alike for many centuries. Egypt was home to the oldest modern civilizations which still seems to be alive in the thousands of wonders.",
-    "price": "680",
+    "price": "690",
     "location": "Egypt",
     "category": "Adventure",
     "image": "https://i.ibb.co/HHPDnww/sphinx-front.jpg",
     "status": "reject"
+  },
+
+  {
+    "name": "A weekend in London",
+    "description": "We Offer A No-Quibble 14 Day Money Back Guarantee On All Unredeemed Vouchers. Find A New Destination To Visit, We Have Amazing Deals Across The Whole Of The UK.",
+    "price": "300",
+    "location": "London",
+    "category": "Adventure",
+    "image": "https://i.ibb.co/LkkhTRt/destination-london-07-800x533.jpg",
+    "status": "approved"
   }
 ]

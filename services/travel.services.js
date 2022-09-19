@@ -1,4 +1,3 @@
-const { findOne } = require("../models/Travels");
 const Travel = require("../models/Travels");
 
 exports.getTravelsService = async (filters, queries) => {
@@ -32,4 +31,10 @@ exports.updateTourByIdService = async (tourId, data) => {
     { runValidators: true } //validate body
   );
   return result;
+};
+
+// top 3 cheapest tour
+exports.cheapestTourService = async () => {
+  const cheap = await Travel.find({}).sort({ price: 1 }).limit(3);
+  return cheap;
 };

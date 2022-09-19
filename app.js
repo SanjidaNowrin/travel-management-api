@@ -8,13 +8,15 @@ app.use(express.json());
 app.use(cors());
 
 // routes
-const travelRoute = require("./routes/travel.routes");
+const toursRoute = require("./routes/tours.routes");
+const tourRoute = require("./routes/tour.routes");
 
 app.get("/", (req, res) => {
   res.send("Travel route is working!");
 });
 
 // posting to database
-app.use("/tours", travelRoute);
+app.use("/tours", toursRoute);
+app.use("/tour", tourRoute);
 
 module.exports = app;
